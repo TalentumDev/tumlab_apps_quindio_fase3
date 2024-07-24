@@ -27,6 +27,16 @@ const addApps = [
           "INTEGRATIC, una plataforma educativa que facilita a los menores el acceso a la información, es decir, acceder a contendidos académicos sin necesidad de estar conectados a internet.",
         url: "http://integratic.aulasquindio.local",
       },
+      {
+        order: 4,
+        thumbnail: "./img/bilinguismo/logo.png",
+        is_show: true,
+        title: "./img/bilinguismo/logo.png",
+        cover: "./img/tumlab/tumlab_cover.png",
+        description:
+          "Plataforma LMS de Quindío Bilingüe y Competitivo",
+        url: "http://lms.bilinguismoquindio.local",
+      },
     ]
   },
   {
@@ -34,7 +44,7 @@ const addApps = [
     enable: true,
     children: [
       {
-        order: 2,
+        order: 1,
         thumbnail: "./img/steam.png",
         is_show: true,
         title: "./img/steam.png",
@@ -42,7 +52,17 @@ const addApps = [
         description:
           "El sistema de información es una de herramienta para reportes de la plataforma de contenido pedagogico que permite visualizar indicadores, desplegar gráficas y generar reportes sobre la información del estado y avance de los usuarios en las actividades elaboradas en los diferentes cursos de la plataforma.",
         url: "http://si.aulasquindio.local",
-      }
+      },
+      {
+        order: 2,
+        thumbnail: "./img/bilinguismo/logo.png",
+        is_show: true,
+        title: "./img/bilinguismo/logo.png",
+        cover: "./img/sistema_de_informacion/sistema_de_informacion_cover.png",
+        description:
+          "El sistema de información es una de herramienta para reportes de la plataforma de contenido pedagogico que permite visualizar indicadores, desplegar gráficas y generar reportes sobre la información del estado y avance de los usuarios en las actividades elaboradas en los diferentes cursos de la plataforma.",
+        url: "http://si.bilinguismoquindio.local",
+      },
 
     ]
   },
@@ -88,23 +108,13 @@ const addApps = [
     children: [
       {
         order: 1,
-        thumbnail: "./img/residuos/AGAU_CARD.png",
-        is_show: true,
-        title: "./img/residuos/AGAU_TITLE.png",
-        cover: "./img/residuos/AGAU_IMAGE.png",
-        description:
-          "Es un videojuego donde Agau, un robot viajero del tiempo, llega del año 2200 a enseñarnos a salvar el mundo de los residuos tecnológicos, a través de 4 estaciones con varias misiones podemos aprender qué hacer para reducir el impacto medioambiental de los residuos.",
-        url: "http://agau.aulasquindio.local",
-      },
-      {
-        order: 2,
         thumbnail: "./img/scratch/scratch_thumbnail.png",
         is_show: true,
         title: "./img/scratch/scratch_title.png",
         cover: "./img/scratch/scratch_cover.png",
         description:
           "Scratch es la comunidad de programación para niños y niñas más grande del mundo, y un lenguaje de programación con una interfaz sencilla que permite a los jóvenes crear historias digitales, juegos y animaciones. Scratch está diseñado, desarrollado y moderado por la Fundación Scratch, una organización sin ánimo de lucro. Scratch promueve el pensamiento computacional y las habilidades en resolución de problemas; enseñanza y aprendizaje creativos, auto expresión y colaboración; e igualdad en informática.",
-        url: "http://192.168.192.163:8086",
+        url: "http://10.10.0.3:8086",
       }
     ],
   },
@@ -120,7 +130,7 @@ const addApps = [
         cover: "./img/simuladores/simuladores_cover.png",
         description:
           "Simulaciones interactivas en Física, Química, Ciencias basada en el proyecto de simulaciones interactivas de PhET de la Universidad de Colorado en Boulder. Estos recursos nacen de la investigación educativa extensiva e involucran a los estudiantes mediante un ambiente intuitivo y similar a un juego, en donde aprenden explorando y descubren.",
-        url: "http://content.aulasquindio.local/phet_es_2022-12/A/index.html",
+        url: "http://content.aulasquindio.local/viewer#phet_es_2023-01/A/index.html",
       },
       {
         order: 2,
@@ -130,7 +140,7 @@ const addApps = [
         cover: "./img/simulators/simu_image.png",
         description:
           "Interactive simulations in Physics, Chemistry, Science based on the PhET Interactive Simulations project at the University of Colorado at Boulder. These resources stem from extensive educational research and engage students through an intuitive, game-like environment where they learn by exploring while practicing English.",
-        url: "http://content.aulasquindio.local/phet_en_2023-01/A/index.html",
+        url: "http://content.aulasquindio.local/viewer#phet_en_all_2023-04/A/index.html",
       }
     ],
   },
@@ -162,7 +172,7 @@ const addApps = [
         cover: "./img/wiki/wiki_cover.png",
         description:
           "Wikipedia es una página web para realizar consultas online de contenido abierto, una web que almacena, recopila y transmite información de manera totalmente estructurada.",
-        url: "http://content.aulasquindio.local/wikipedia_es_all_nopic_2022-10/A/Wikipedia:Offline",
+        url: "http://content.aulasquindio.local/viewer#wikipedia_es_all_maxi_2023-10",
       },
       {
         order: 2,
